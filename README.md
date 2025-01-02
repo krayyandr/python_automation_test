@@ -12,7 +12,7 @@ python-automation-project
 │   │   └── helpers.py   # Utility functions for reuse
 │   └── scripts
         ├── example_script.py  # Example automation script
-│       └── sum_script.py # Test new automation script
+│       └── sum_script.py      # Test new automation script
 ├── requirements.txt      # Project dependencies
 └── README.md             # Project documentation
 ```
