@@ -11,7 +11,8 @@ python-automation-project
 │   ├── utils
 │   │   └── helpers.py   # Utility functions for reuse
 │   └── scripts
-│       └── example_script.py  # Example automation script
+        ├── example_script.py  # Example automation script
+│       └── sum_script.py # Test new automation script
 ├── requirements.txt      # Project dependencies
 └── README.md             # Project documentation
 ```
@@ -34,6 +35,8 @@ python-automation-project
 To run the automation project, execute the main script:
 ```
 python src/main.py
+python src/main.py --run example
+python src/main.py --run sum
 ```
 
 ## Scripts and Utilities
